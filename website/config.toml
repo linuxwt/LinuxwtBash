@@ -1,4 +1,4 @@
-baseURL = "https://books.linuxwt.com/linuxwtbash"
+seURL = "https://books.linuxwt.com/linuxwtbash"
 languageCode = "en-us"
 title = "The Linux Command Line"
 theme = "book"
@@ -134,18 +134,19 @@ disablePathToLower = true
   # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.
   BookTranslatedOnly = false
 
-#[params.gitalk] 
-      clientID = "75d9d747f200c623a0e6" # Your client ID
-      clientSecret = "e3cc2ff8d8f6ae3c894a827f226188de0d26f37e" # Your client secret
-      repo = "S2" # The repo to store comments
-     owner = "halfrost" # Your GitHub ID
-     admin= "halfrost" # Required. Github repository owner and collaborators. (Users who having write access to this repository)
+[params.gitalk] 
+      clientID = "2ceb7018c6e60ab6a41c" # Your client ID
+      clientSecret = "4b124ac4d1612c5e89252139e0a11ba870ee4a28" # Your client secret
+      repo = "linuxwt.github.io" # The repo to store comments
+     owner = "linuxwt" # Your GitHub ID
+     admin= "linuxwt" # Required. Github repository owner and collaborators. (Users who having write access to this repository)
      id= "location.pathname" # The unique id of the page.
      labels= "gitalk" # Github issue labels. If you used to use Gitment, you can change it
      body= "location.href" # GitHub issue body.
-     perPage= 100 # Pagination size, with maximum 100.
+     perPage= 30 # Pagination size, with maximum 100.
      pagerDirection= "last" # Comment sorting direction, available values are 'last' and 'first'.
      createIssueManually= true # If it is 'false', it is auto to make a Github issue when the administrators login.
      distractionFreeMode= true # Enable hot key (cmd|ctrl + enter) submit comment.
-     proxy= "https://shielded-brushlands-08810.herokuapp.com/https://github.com/login/oauth/access_token"
+    proxy= "https://shielded-brushlands-08810.herokuapp.com/https://github.com/login/oauth/access_token"
+
 
