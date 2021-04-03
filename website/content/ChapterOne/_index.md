@@ -44,5 +44,5 @@ Bash全称Bourne-Again SHell，Bash是一个命令处理器，通常运行于文
 如果书中文章有所遗漏，欢迎点击所在页面下边的 edit 按钮进行评论和互动，感谢您的支持与帮助。
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
-<p><a href="https://books.linuxwt.com/linuxwtbash/ChapterTwo/Regular_Fundation/">下一章➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtbash/ChapterTwo/">下一章➡️</a></p>
 </div>
