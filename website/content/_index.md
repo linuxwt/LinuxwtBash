@@ -18,7 +18,7 @@ Bash全称Bourne-Again SHell，Bash是一个命令处理器，通常运行于文
 
 {{< /columns >}}
 
-<img src="https://books.linuxwt.com/linuxwtbash/logo.png" alt="logo" height="600" align="right" style="padding-left: 30px;"/>
+<img src="https://img.linuxwt.com/logo.png" alt="logo" height="600" align="right" style="padding-left: 30px;"/>
 
 ## 为什么会写这本开源书
 
