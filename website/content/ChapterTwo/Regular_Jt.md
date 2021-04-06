@@ -6,7 +6,7 @@ weight: 1
 
 # 交替|   
 
-`grep -h '^(ab|cd|ef)' file1`   
+`grep -Eh '^(ab|cd|ef)' file1`   
 输出文件file1中包含以ab开头或cd开头或ef开头的文本行   
 
 
