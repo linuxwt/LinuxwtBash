@@ -4,7 +4,7 @@ type: docs
 weight: 1
 ---   
 
-# 锚首部^   
+# 锚首部^尾部$   
 
 `grep -h '^zip' file1`   
 输出文件file1中符合以zip开头的文本行  

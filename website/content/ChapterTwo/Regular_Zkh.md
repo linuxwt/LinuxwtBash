@@ -4,13 +4,13 @@ type: docs
 weight: 1
 ---     
 
-# 结合^使用    
+# 结合^和-使用    
 
 `grep -h '[^wt]zip file1'`   
 输出文件file1中不包含wzip或tzip的文本行   
 
 `grep -h '^[wt]zip' file1`  
-输出文件file1中包含wzip或tzip的文本行    
+输出文件file1中包含wzip或tzip开头的文本行    
 
 `grep -h '[A-Z]' file1`   
 输出文件file1中包含字母的文本行   
