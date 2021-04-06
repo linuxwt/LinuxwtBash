@@ -47,17 +47,17 @@ disablePathToLower = true
   url = "https://github.com/linuxwt"
   weight = 20
 [[menu.before]]
-  name = "WeChat Official Accounts"
+  name = "WeChat"
   url = "https://img.linuxwt.com/wechat-qr-code.png"
   weight = 30
-[[menu.before]]
-  name = "Twitter"
-  url = "https://twitter.com/linuxwt"
-  weight = 40
-[[menu.before]]
-  name = "Weibo"
-  url = "https://weibo.com/linuxwt"
-  weight = 50
+#[[menu.before]]
+ # name = "Twitter"
+ # url = "https://twitter.com/linuxwt"
+ # weight = 40
+#[[menu.before]]
+ # name = "Weibo"
+ # url = "https://weibo.com/linuxwt"
+ # weight = 50
 #[[menu.after]]
 #  name = "Github"
 #  url = "https://github.com/alex-shpak/hugo-book"
