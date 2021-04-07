@@ -32,7 +32,7 @@ weight: 1
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.linuxwt.com/linuxwtbash/ChapterTwo/Regular_Jt">⬅️上一页</a></p>
-<p><a href="https://books.linuxwt.com/linuxwtbash/ChapterThird/">下一章➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtbash/ChapterThree/">下一章➡️</a></p>
 </div>
 
 
