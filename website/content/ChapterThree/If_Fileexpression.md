@@ -43,7 +43,7 @@ fi
 exit
 ```   
 
-div style="display: flex;justify-content: space-between;align-items: center;">
+<div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.linuxwt.com/linuxwtbash/ChapterThree/">⬅️上一页</a></p>
 <p><a href="https://books.linuxwt.com/linuxwtbash/ChapterThree/If_Charexpression">下一页➡️</a></p>
 </div>
