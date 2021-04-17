@@ -21,7 +21,7 @@ if [ -z "${answer}" ];then
     exit 1
 fi
 if [ "$answer" == "ab" ];then
-    echo "the answer is incorrect."
+    echo "the answer is incorrect"
 elif [ "$answer" == "cd" ];then
     echo "the answer is also incorrect."
 elif [ "$answer" == "wangteng" ];then
