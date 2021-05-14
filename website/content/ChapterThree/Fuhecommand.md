@@ -64,5 +64,5 @@ fi
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.linuxwt.com/linuxwtbash/ChapterThree/If_Charexpression">⬅️上一页</a></p>
-<p><a href="https://books.linuxwt.com/linuxwtbash/ChapterThree/If_Fuhecommand">下一页➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtbash/ChapterFour/">下一章➡️</a></p>
 </div>
