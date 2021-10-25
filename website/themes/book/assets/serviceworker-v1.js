@@ -10,7 +10,7 @@
     var staticAssetsCacheName = 'static-assets' + cacheVersion;
     var contentCacheName = 'content' + cacheVersion;
     var maxEntries = 50;
-    self.importScripts("/linuxwtbash/js/sw-toolbox.js");
+    self.importScripts("/linuxwtabs/js/sw-toolbox.js");
     self.toolbox.options.debug = false;
 
     // Cache own static assets

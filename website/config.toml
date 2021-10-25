@@ -1,4 +1,4 @@
-baseURL = "https://books.linuxwt.com/linuxwtbash"
+baseURL = "https://books.linuxwt.com/linuxwtabs"
 languageCode = "en-us"
 title = "The Linux Command Line"
 theme = "book"
@@ -96,7 +96,7 @@ disablePathToLower = true
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = 'https://github.com/linuxwt/LinuxwtBash'
+  BookRepo = 'https://github.com/linuxwt/linuxwtabs'
 
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
