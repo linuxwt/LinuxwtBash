@@ -18,7 +18,7 @@ Bash全称Bourne-Again SHell，Bash是一个命令处理器，通常运行于文
 
 {{< /columns >}}
 
-<img src="https://img.linuxwt.com/logo.png" alt="logo" height="600" align="right" style="padding-left: 30px;"/>
+<img src="https://img.linuxwt.com/abs.png" alt="logo" height="600" align="right" style="padding-left: 30px;"/>
 
 ## 为什么会写这本开源书
 
@@ -31,7 +31,7 @@ Bash全称Bourne-Again SHell，Bash是一个命令处理器，通常运行于文
 我本身是通信工程专业毕业的，学校一般学的也一般，凑巧进了IT行业，算是没有完全丢掉本专业知识吧，至少计算机网络用的是真的多。
 ## 关于书中的代码
 
-代码都放在 [github repo](https://github.com/linuxwt/LinuxwtBash/tree/master/linuxwtbash) 中，按题号可以搜索到题目。
+代码都放在 [github repo](https://github.com/linuxwt/LinuxwtBash/tree/linuxwtabs/linuxwtabs) 中，按题号可以搜索到题目。
 
 
 ## 使用说明
