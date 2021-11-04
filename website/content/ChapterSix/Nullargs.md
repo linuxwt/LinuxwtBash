@@ -18,7 +18,7 @@ echo ${foo:-"hahaha"}
 echo $foo   
 输出的结果是 tengwang tengwang   
 
-# ${parameter:=word}
+# ${parameter:=word}   
 
 ex1:  
 foo=  
