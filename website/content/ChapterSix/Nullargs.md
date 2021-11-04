@@ -8,13 +8,17 @@ weight: 1
 
 ex1:   
 foo=
-echo ${foo:-"hahaha"}   
-输出的结果是 hahaha   
+echo ${foo:-"hahaha"} 
+echo foo    
+输出的结果是 hahaha 空      
 
 ex2:  
 foo=tengwang
 echo ${foo:-"hahaha"}   
-输出的结果是 tengwang   
+echo foo   
+输出的结果是 tengwang tengwang   
+
+# ${parameter:=word}
 
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
