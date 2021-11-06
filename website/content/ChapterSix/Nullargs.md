@@ -7,13 +7,13 @@ weight: 1
 # ${parameter:-word}   
 
 ex1:   
-foo=
-echo ${foo:-"hahaha"} 
+foo=  
+echo ${foo:-"hahaha"}  
 echo foo    
 输出的结果是 hahaha 空      
 
 ex2:  
-foo="tengwang"
+foo="tengwang"   
 echo ${foo:-"hahaha"}   
 echo $foo   
 输出的结果是 tengwang tengwang   
