@@ -64,7 +64,7 @@ echo $foo
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.linuxwt.com/linuxwtbash/ChapterSix/">⬅️上一页</a></p>
-<p><a href="https://books.linuxwt.com/linuxwtbash/NotNullargs/">下一章➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtbash/ChapterSix/NotNullargs/">下一章➡️</a></p>
 </div>
 
 

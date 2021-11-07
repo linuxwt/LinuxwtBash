@@ -32,21 +32,21 @@ echo ${foo#*.}
 
 **${parameter##para}**   
 foo="file.txt.zip"   
-echo ${foo##*.}   
+echo ${foo##\*.}   
 输出结果 zip   
 该展开的意思是匹配开头的字符串清除，但是这个匹配可能会是多种情况，比如*.可以匹配成file.也可以匹配成file.txt.，但这里取最长的匹配项即file.txt   
 
 **${parameter%para}**   
 foo="file.txt.zip"   
-echo ${foo%.*}   
+echo ${foo%.\*}   
 输出结果 file.txt   
 该展开的意思是匹配末尾的字符串清除，但是这个匹配可能会是多种情况，比如.*，可以匹配成.zip，也可以匹配成.txt.zip，这里取最短的匹配项即.zip      
 
 **${parameter%%para}**   
 foo="file.txt.zip"   
-echo ${foo%%.*}   
+echo ${foo%%.\*}   
 输出结果 file   
-该展开的意思是匹配末尾的字符串清除，但是这个匹配可能会是多种情况，比如.*，可以匹配成.zip，也可以匹配成.txt.zip，这里取最短的匹配项即.txt.zip         
+该展开的意思是匹配末尾的字符串清除，但是这个匹配可能会是多种情况，比如.*，可以匹配成.zip，也可以匹配成.txt.zip，这里取最长的匹配项即.txt.zip         
 
 **${parameter/para/string}**   
 foo="JPGJPG"   
