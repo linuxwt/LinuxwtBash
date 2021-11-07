@@ -18,7 +18,7 @@ echo ${foo:5}
 输出结果 c cde    
 该展开的意思是返回从位置为5至最末位的字符串，注意这里的位置类似于切片，位置0对应的是第一个a   
 
-# ${parameter:m:n}   
+# **${parameter\:m\:n}**    
 foo="ab abc cde"   
 echo ${foo:5:4}   
 输出结果  c cd  
