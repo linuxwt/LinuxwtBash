@@ -74,5 +74,5 @@ echo ${foo/%JPG/jpg}
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.linuxwt.com/linuxwtbash/ChapterSix/Nullargs/">⬅️上一页</a></p>
-<p><a href="https://books.linuxwt.com/linuxwtbash/NotNullargs/Jisuan">下一页➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtbash/ChapterSix/Jisuan">下一页➡️</a></p>
 </div>
