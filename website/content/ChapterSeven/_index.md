@@ -11,4 +11,8 @@ weight: 7
 <div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.linuxwt.com/linuxwtbash/ChapterSix">⬅️上一页</a></p>
 <p><a href="https://books.linuxwt.com/linuxwtbash/ChapterSix/Suanshujisuan">下一页➡️</a></p>
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> 01619c38bbc56a6d90111dc6a7e294076dbddd51
