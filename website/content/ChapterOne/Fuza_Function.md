@@ -4,6 +4,8 @@ type: docs
 weight: 1
 ---
 
+function_name $arg1 $arg2函数也可以处理传递的参数返回状态码，这有点类似于位置参数   
+
 # 带参函数   
 exp1:   
 ```bash
@@ -53,6 +55,37 @@ One parameter
 parameter #1 is "first".
 variable=first
 ```   
+
+# 处理位置参数的函数   
+exp2:   
+```bash
+#!/bin/bash
+
+func () 
+{
+    echo "$1"
+}
+
+echo "first call to function:no arg passed"
+
+func
+
+echo
+echo "second call to function: arg passed"
+func $1
+
+exit 0
+```   
+不带位置参数执行脚本     
+输出   
+first call to function:no arg passed   
+second call to function: arg passed    
+
+带位置参数123执行脚本   
+输出   
+first call to function:no arg passed   
+second call to function: arg passed    
+123   
 
 
 
