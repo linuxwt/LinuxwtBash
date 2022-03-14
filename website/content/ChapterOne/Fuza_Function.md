@@ -1,91 +1,67 @@
 ---
-title: 1.02 复杂函数   
+title: 1.02 函数   
 type: docs
 weight: 1
 ---
 
-function_name $arg1 $arg2函数也可以处理传递的参数返回状态码，这有点类似于位置参数   
-
-# 带参函数   
+# 带参数的函数  
 exp1:   
 ```bash
 #!/bin/bash
 
 DEFAULT=default
 
-func1 ()
+func () 
 {
     if [ -z "$1" ]
     then
-        echo "parameter #1 zero length."
+        echo "Parameter #1 is zero length."
     else
-        echo  "parameter #1 is \"$1\"."
+        echo "Parameter #1 is \"$1\"."
     fi
-
     variable=${1:-$DEFAULT}
     echo "variable=$variable"
 }
 
-echo 
-echo "no parameter"   
-func1
-echo
+func  
+echo $variable
 
-echo "zero length parameter"
-func1
-echo
-
-echo "One parameter"
-func1 first
-echo
-
-exit0
+func abc
+echo $variable
 ```   
-执行脚本输出    
+执行脚本输出   
 ```bash
-no parameter
-parameter #1 zero length.
+Parameter #1 is zero length.
 variable=default
+default
+Parameter #1 is abc   
+variable=abc   
+abc  
+```  
 
-zero length parameter
-parameter #1 zero length.
-variable=default
-
-One parameter
-parameter #1 is "first".
-variable=first
-```   
-
-# 处理位置参数的函数   
+# 函数如何使用传给脚本的命令行参数   
 exp2:   
 ```bash
 #!/bin/bash
 
 func () 
 {
-    echo "$1"
+    echo $1
 }
-
-echo "first call to function:no arg passed"
 
 func
 
-echo
-echo "second call to function: arg passed"
-func $1
-
-exit 0
+func $1   
 ```   
-不带位置参数执行脚本     
-输出   
-first call to function:no arg passed   
-second call to function: arg passed    
+执行脚本`bash exp.sh`   输出为空   
+执行脚本`bash exp.sh abc` 输出为abc   
 
-带位置参数123执行脚本   
-输出   
-first call to function:no arg passed   
-second call to function: arg passed    
-123   
+# 函数的返回状态值   
+可以由return指定一个整数返回值，否则就由函数中执行的最后一条命令的退出状态来决定   
+return可以选择带一个整数参数，这个整数可以作为函数的返回值返回给调用此函数的脚本，且赋值给$?    
+下面使用一个例子来展示return的用法   
+
+
 
 
 
