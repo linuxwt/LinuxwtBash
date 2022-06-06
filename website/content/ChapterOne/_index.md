@@ -32,5 +32,5 @@ command...
 ```  
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
-<p><a href="https://books.linuxwt.com/linuxwtabs/ChapterOne/Easy_Function/">下一页➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtabs/ChapterOne/Function_DiaoYong/">下一页➡️</a></p>
 </div>
