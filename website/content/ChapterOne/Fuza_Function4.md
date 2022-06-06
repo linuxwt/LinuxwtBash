@@ -28,5 +28,5 @@ echo "\"b\" is equal $b"
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.linuxwt.com/linuxwtabs/ChapterOne/Fuza_Function3">上一页➡️</a></p>
-<p><a href="https://books.linuxwt.com/linuxwtabs/ChapterOne/Fuza_Function5">下一页➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtabs/ChapterTwo">下一章➡️</a></p>
 </div>
