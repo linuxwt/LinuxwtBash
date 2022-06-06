@@ -176,5 +176,5 @@ exit 0
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.linuxwt.com/linuxwtabs/ChapterOne/Fuza_Function">上一页➡️</a></p>
-<p><a href="https://books.linuxwt.com/linuxwtabs/ChapterOne/">下一页➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtabs/ChapterOne/Fuza_Function3">下一页➡️</a></p>
 </div>
