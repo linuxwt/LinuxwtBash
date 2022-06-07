@@ -129,5 +129,5 @@ unalias.sh: line 9: lm: command not found
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.linuxwt.com/linuxwtabs/ChapterTwo">上一页➡️</a></p>
-<p><a href="https://books.linuxwt.com/linuxwtabs/">下一章➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtabs/ChapterThree">下一章➡️</a></p>
 </div>
