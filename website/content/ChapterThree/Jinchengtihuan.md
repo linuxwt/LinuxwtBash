@@ -57,13 +57,13 @@ do
 done < <(route -n)
 ```   
 执行输出   
-···bash
+```bash
 Kernel IP routing table
 Destination Gateway Genmask Flags Metric Ref Use Iface
 0.0.0.0 192.168.0.1 0.0.0.0 UG 100 0 0 ens32
 192.168.0.0 0.0.0.0 255.255.255.0 U 100 0 0 ens32
 ```   
-要特别注意上面的进程替换部分，两个<是有空格的，这里有点类似与前面的函数使用重定向标准输入，但那里是直接使用文件，本例的进程替换就可以看作是标准输入的的文件   
+要特别注意上面的进程替换部分，两个<是有空格的，这里有点类似与前面的函数使用重定向标准输入，但那里是直接使用文件，本例的进程替换就可以看作是标准输入的的文件       
 
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
