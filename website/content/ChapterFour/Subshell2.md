@@ -23,5 +23,5 @@ exit 0
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.linuxwt.com/linuxwtabs/ChapterFour/Subshell1">上一页➡️</a></p>
-<p><a href="https://books.linuxwt.com/linuxwtabs/ChapterFour/Subshell3">下一章➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtabs/ChapterFour/Subshell3">下一页➡️</a></p>
 </div>
