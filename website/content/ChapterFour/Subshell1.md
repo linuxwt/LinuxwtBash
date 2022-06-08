@@ -42,5 +42,5 @@ from main body 0f shell "var2" =
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.linuxwt.com/linuxwtabs/ChapterFour">上一页➡️</a></p>
-<p><a href="https://books.linuxwt.com/linuxwtabs/ChapterFour/Subsjell2">下一章➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtabs/ChapterFour/Subshell2">下一章➡️</a></p>
 </div>
