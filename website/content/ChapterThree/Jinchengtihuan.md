@@ -68,5 +68,5 @@ Destination Gateway Genmask Flags Metric Ref Use Iface
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.linuxwt.com/linuxwtabs/ChapterThree">上一页➡️</a></p>
-<p><a href="https://books.linuxwt.com/linuxwtabs/ChapterThree">下一章➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtabs/ChapterFour">下一章➡️</a></p>
 </div>
