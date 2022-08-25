@@ -27,6 +27,18 @@ echo $b1
 
 exit 0
 ```   
+执行脚本输出   
+```bash
+Following lines read from file
+--------
+a
+b
+enter data
+v
+Input read from stdin
+--------
+v
+```   
 
 # exec重定向标准输出   
 ```bash
