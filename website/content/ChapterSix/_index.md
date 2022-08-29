@@ -1,7 +1,7 @@
 ---
-title: 第五章 heredocument
+title: 第六章 heredocument
 type: docs
-weight: 5
+weight: 6
 ---   
 
 将一段命令序列传递到一个交互程序中，例如cat ftp expect
