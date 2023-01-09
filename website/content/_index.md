@@ -8,7 +8,7 @@ type: docs
 {{< columns >}}
 ## 关于本书
 
-本书是一本初级学习linux命令的书籍。
+本书是一本记录常用shell脚本的书籍。
 
 <--->
 
@@ -18,11 +18,11 @@ Bash全称Bourne-Again SHell，Bash是一个命令处理器，通常运行于文
 
 {{< /columns >}}
 
-<img src="https://img.linuxwt.com/logo.png" alt="logo" height="600" align="right" style="padding-left: 30px;"/>
+<img src="https://img.linuxwt.com/sbc.JPG" alt="logo" height="600" align="right" style="padding-left: 30px;"/>
 
 ## 为什么会写这本开源书
 
-笔者是从事IT运维工作的，兜兜转转有四年多了，在工作当中碰到问题去查找资料相当麻烦，为此就打算将曾经翻阅过的书重新好好整理一遍，这里希望在整理的过程当中重新把代码再写一遍。
+平时工作当中会写一些shell脚本，这里希望将这些学习工作当中的shell脚本整理分类，方便后期查查阅借鉴。
 
 
 
@@ -31,7 +31,7 @@ Bash全称Bourne-Again SHell，Bash是一个命令处理器，通常运行于文
 我本身是通信工程专业毕业的，学校一般学的也一般，凑巧进了IT行业，算是没有完全丢掉本专业知识吧，至少计算机网络用的是真的多。
 ## 关于书中的代码
 
-代码都放在 [github repo](https://github.com/linuxwt/LinuxwtBash/tree/master/linuxwtbash) 中，按题号可以搜索到题目。
+代码都放在 [github repo](https://github.com/linuxwt/LinuxwtBash/tree/linuxwtsbc) 中，按题号可以搜索到题目。
 
 
 ## 使用说明
