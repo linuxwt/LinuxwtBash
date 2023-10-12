@@ -113,6 +113,6 @@ declare -i i
 
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
-<p><a href="https://books.linuxwt.com/linuxwtabs/ChapterOne/shell1">上一页➡️</a></p>
-<p><a href="https://books.linuxwt.com/linuxwtabs/ChapterOne/shell3">下一页➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtsbc/ChapterOne/shell1">上一页➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtsbc/ChapterOne/shell3">下一页➡️</a></p>
 </div>

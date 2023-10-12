@@ -82,6 +82,6 @@ Size=50
 
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
-<p><a href="https://books.linuxwt.com/linuxwtabs/ChapterOne/">上一页➡️</a></p>
-<p><a href="https://books.linuxwt.com/linuxwtabs/ChapterOne/shell2">下一页➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtsbc/ChapterOne/">上一页➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtsbc/ChapterOne/shell2">下一页➡️</a></p>
 </div>

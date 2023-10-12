@@ -92,6 +92,6 @@ dir=$1
 
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
-<p><a href="https://books.linuxwt.com/linuxwtabs/ChapterOne/shell2">上一页➡️</a></p>
-<p><a href="https://books.linuxwt.com/linuxwtabs/ChapterOne/shell4">下一页➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtsbc/ChapterOne/shell2">上一页➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtsbc/ChapterOne/shell4">下一页➡️</a></p>
 </div>
