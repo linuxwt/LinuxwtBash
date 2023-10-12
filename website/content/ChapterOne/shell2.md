@@ -44,7 +44,7 @@ done
 ```bash
 ```bash
 i=1
-for i ((i < 11))
+while ((i < 11))
 do
   `touch $(tr -dc "a-z" < /dev/urandom | head -c 10)_oldboy.html` 
 done
@@ -57,7 +57,7 @@ done
 cd $dir     
 # 批量创建符合条件的文件   
 i=1
-for i ((i < 11))
+while ((i < 11))
 do
   `touch $(tr -dc "a-z" < /dev/urandom | head -c 10)_oldboy.html` 
 done
@@ -69,7 +69,7 @@ done
 cd $Dir        
 # 批量创建符合条件的文件   
 i=1
-for i ((i < 11))
+while ((i < 11))
 do
   `touch $(tr -dc "a-z" < /dev/urandom | head -c 10)_oldboy.html` 
 done
