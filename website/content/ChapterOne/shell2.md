@@ -25,7 +25,7 @@ dir=$1
 [[ ! $dir == /* ]] && { Dir="/${dir}";finddir1; } || { finddir2; }    
 ```   
 
-2）如何生成随机的10个消息字母      
+2）如何生成随机的10个小写字母      
 `tr -dc "a-z" < /dev/urandom | head -c 10`    
 
 3) 如何批量处理   
