@@ -66,8 +66,6 @@ echo -e "$file is changed ."
 ```bash
 #!/bin/bash
 
-#!/bin/bash
-
 checkfile1 () {
 cd $Dir     
 [ -f /tmp/html.md5 ] || { find ./ -type f | xargs md5sum > /tmp/html.md5; }
