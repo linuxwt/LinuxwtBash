@@ -76,7 +76,6 @@ dir=$1
 declare -i size Size
 Size=50
 [[ ! $dir == /* ]] && { Dir="/${dir}";finddir2;exit 0; } || { finddir1; }
->dir.txt
 ```   
 
 
