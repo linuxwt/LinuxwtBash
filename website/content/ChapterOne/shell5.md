@@ -98,7 +98,7 @@ cd $Dir
 du -sm * > allfile.txt
 while read size file 
 do
-[ "$size" -gt "$Size" ] &&  echo  $file >> jieguofile.txt
+[ $size -gt $Size ] &&  echo  $file >> jieguofile.txt
 done < allfile.txt
 for jieguofile in $(cat ./jieguofile.txt)
 do
@@ -114,7 +114,7 @@ cd $dir
 du -sm * > allfile.txt
 while read size file 
 do
-[ "$size -gt $Size" ] && echo  $file >> jieguofile.txt
+[ $size -gt $Size ] && echo  $file >> jieguofile.txt
 done < allfile.txt  
 for jieguofile in $(cat ./jieguofile.txt)
 do
