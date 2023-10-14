@@ -21,7 +21,8 @@ weight: 1
 [ $# -ne 1 ] && { echo "Usage: $(basename $0) need one argument.";exit -1; }
 # 根据不同目录格式，执行不同的函数操作  
 dir=$1
-[[ ! ${dir} == /* ]] && { Dir=/${dir};checkfile1; } || { checkfile2; }
+[[ ! ${dir} == /* ]] && { Dir=/${dir};checkfile1; } 
+[[ $dir == /* ]] && checkfile2
 ```   
 2) 如何生成初始扫描文件   
 `[ -f /tmp/html.md5 ] || { find ./ -type f | xargs md5sum > /tmp/html.md5; }`  
@@ -55,8 +56,10 @@ md5sum -c /tmp/html.md5 > /tmp/md5.check 2>&1
 
 6) 如何在校验结果显示文件有被改动时输出被改动的文件名   
 ```bash
-file=$(grep FAILED /tmp/md5.check | awk -F ':' '{print $1}')
-echo -e "$file is changed ."
+for file in  $(grep 失败 /tmp/md5.check | awk -F ':' '{print $1}')
+do
+echo  "$file is changed ."
+done
 ``` 
 
 7) 如何在校验结果显示文件没有被改动时，输出无变化   
@@ -85,8 +88,10 @@ echo "not change"
 }
 
 gaidong () {
-file=$(grep 失败 /tmp/md5.check | awk -F ':' '{print $1}')
-echo -e "$file is changed ."
+for file in  $(grep 失败 /tmp/md5.check | awk -F ':' '{print $1}')
+do
+echo  "$file is changed ."
+done
 }
 
 

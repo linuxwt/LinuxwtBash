@@ -82,7 +82,6 @@ size=1
 8) 汇总脚本   
 ```bash
 #!/bin/bash
-#!/bin/bash
 
 createfile1 () {
 cd $dir     
