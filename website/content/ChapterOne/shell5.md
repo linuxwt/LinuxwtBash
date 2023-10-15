@@ -132,8 +132,6 @@ Size=5
 [[ ! $dir == /* ]] && { Dir="/${dir}";yidongfile1; } || yidongfile2
 ```  
 
- 
-
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.linuxwt.com/linuxwtsbc/ChapterOne/shell4">上一页➡️</a></p>
