@@ -143,6 +143,6 @@ echo "There are ${allfile} files and ${alldir} dirs."
 
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
-<p><a href="https://books.linuxwt.com/linuxwtsbc/ChapterOne/shell6">上一页➡️</a></p>
-<p><a href="https://books.linuxwt.com/linuxwtsbc/ChapterOne/shell8">下一页➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtsbc/ChapterOne/shell7">上一页➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtsbc/ChapterOne/shell9">下一页➡️</a></p>
 </div>

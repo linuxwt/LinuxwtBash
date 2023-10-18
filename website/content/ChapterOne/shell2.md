@@ -31,7 +31,7 @@ dir=$1
 3) 如何批量处理   
 ```bash
 i=1
-for i ((i < 11))
+while ((i < 11))
 do
   ...  
 done
