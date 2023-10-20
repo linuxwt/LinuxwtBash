@@ -19,8 +19,9 @@ weight: 1
 其次切换至root用户      
 `chown -R root.root filename`   
 `chmod +s filename`   
-最后切换至abc用户   
-`bash filename`   
+最后切换至abc用户     
+`./filename`这个时候abc用户就可以使用root权限来执行该文件   
+   
 **ps:setuid权限只能用于二进制程序文件，不能用于脚本**   
 
 3) 给一个文件赋予不可修改权限，其他用户包括root也无法修改或删除此文件   
