@@ -22,7 +22,6 @@ weight: 1
 #!/bin/bash
 
 dirls () {
-cd $dir
 ls -d */
 ls -l | grep "^d"
 }
