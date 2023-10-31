@@ -4,7 +4,7 @@ type: docs
 weight: 2
 ---
 
-
+利用linux中的常见文本处理工具进行的处理   
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.linuxwt.com/linuxwtsbc/ChapterOne/shell21">上一页➡️</a></p>
