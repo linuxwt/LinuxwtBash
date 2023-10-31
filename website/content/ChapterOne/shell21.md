@@ -54,6 +54,6 @@ treefile4
 
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
-<p><a href="https://books.linuxwt.com/linuxwtsbc/ChapterOne/shell8">上一页➡️</a></p>
-<p><a href="https://books.linuxwt.com/linuxwtsbc/ChapterOne/shell10">下一页➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtsbc/ChapterOne/shell20">上一页➡️</a></p>
+<p><a href="https://books.linuxwt.com/linuxwtsbc/ChapterTwo">下一页➡️</a></p>
 </div>
