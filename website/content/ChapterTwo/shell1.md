@@ -9,6 +9,7 @@ weight: 1
 2、如何在单个文件中搜索匹配特定模式的文本行   
 3、如何在多个文件中搜索匹配特定模式的文本行   
 4、如何在文件中搜索匹配包含任意单词的文本行  
+5、如何在文件中搜索匹配到的行中的具体文本   
 5、汇总脚本      
 
 下面一层层来解决   
@@ -22,10 +23,10 @@ weight: 1
 `grep word test.txt test1.txt test2.txt`   
 
 4) 如何在文件中搜索匹配包含任意单词的文本行   
-`grep -E '[a-zA-Z]+' test.txt`   
+`grep -E '[a-zA-Z]+' test.txt` 或者 `egrep '[a-z]+' test.txt`   
 
-
-
+5) 如何在文件中搜索匹配到的行中的具体文本    
+`grep -E -o '(word)' test.txt` 或者 `egrep  -o  '(word)' test.txt`   
 
 
 
