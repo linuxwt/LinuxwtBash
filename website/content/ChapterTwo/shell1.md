@@ -26,7 +26,7 @@ weight: 1
 `grep -E '[a-zA-Z]+' test.txt` 或者 `egrep '[a-z]+' test.txt`   
 
 5) 如何在文件中搜索匹配到的行中的具体文本    
-`grep -E -o '(word)' test.txt` 或者 `egrep  -o  '(word)' test.txt`   
+`grep -E -o 'word' test.txt` 或者 `egrep  -o  'word' test.txt`   
 
 
 
