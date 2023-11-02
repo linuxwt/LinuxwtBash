@@ -10,6 +10,7 @@ weight: 1
 3、如何在多个文件中搜索匹配特定模式的文本行   
 4、如何在文件中搜索匹配包含任意单词的文本行  
 5、如何在文件中搜索匹配到的行中的具体文本   
+6、如何在文件中搜索出不匹配的文本行   
 5、汇总脚本      
 
 下面一层层来解决   
@@ -26,7 +27,10 @@ weight: 1
 `grep -E '[a-zA-Z]+' test.txt` 或者 `egrep '[a-z]+' test.txt`   
 
 5) 如何在文件中搜索匹配到的行中的具体文本    
-`grep -E -o 'word' test.txt` 或者 `egrep  -o  'word' test.txt`   
+`grep -E -o 'word' test.txt` 或者 `egrep  -o  'word' test.txt`    
+
+6) 如何在文件中搜索出不匹配的文本行    
+`grep -v 'word' test.txt` 或者 `egrep -v 'word' test.txt`   
 
 
 
