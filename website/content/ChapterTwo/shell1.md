@@ -12,7 +12,8 @@ weight: 1
 5、如何在文件中搜索匹配到的行中的具体文本   
 6、如何在文件中搜索出不匹配的文本行   
 7、如何在文件中搜索匹配的文本行的数量  
-8、如何在文件中搜索出匹配的文本的数量    
+8、如何在文件中搜索出匹配的文本的数量     
+9、如何在文件中搜索出匹配的文本所在的行数   
 5、汇总脚本      
 
 下面一层层来解决   
@@ -42,6 +43,8 @@ weight: 1
 8) 如何在文件中搜索出匹配的文本的数量   
 `grep -o 'word' test.txt | wc -l`   
 
+9) 如何在文件中搜索出匹配的文本所在的行数   
+`cat test.txt | grep -n 'word'` 或者 `grep -n 'word' test.txt test1.txt`  
 
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
