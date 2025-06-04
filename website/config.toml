@@ -1,4 +1,4 @@
-baseURL = "https://books.linuxwt.com/linuxwtbash"
+baseURL = "https://books.linuxwt.com/linuxwtsbc"
 languageCode = "en-us"
 title = "The Linux Command Line"
 theme = "book"
