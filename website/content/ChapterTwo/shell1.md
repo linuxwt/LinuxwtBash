@@ -18,6 +18,8 @@ weight: 1
 11、如何在目录中搜索包含匹配文本的文件    
 12、如何在多级目录中递归搜索包含匹配文本的文件及文本所在的行数    
 13、如何在文件中搜索时忽略匹配的文本大小写    
+14、使用0值字节后缀的xargs与grep   
+15、如何确定某个字符串在文件内容但是又不输出内容    
 、汇总脚本      
 
 下面一层层来解决   
@@ -65,6 +67,22 @@ weight: 1
 13) 如何在文件中搜索时忽略匹配的文本大小写   
 `grep -i 'word' test.txt`   
 
+14) 如何将grep过滤出来的文件批量删除    
+`grep 'test' ./ -lZ | xargs -0 rm`   
+
+15) 如何确定某个字符串在文件内容但是又不输出内容   
+```bash
+#!/bin/bash
+
+[ $# -ne 2 ] && { echo "Usage:$0 match_text filename";exit 1; }
+
+match_text=$1
+filename=$2
+
+grep -q "${match_text}" $filename 
+
+[ $? -eq 0 ] && echo "the text exists in the file" || echo "the text does not exists in the file"
+```   
 
 
 <div style="display: flex;justify-content: space-between;align-items: center;">
